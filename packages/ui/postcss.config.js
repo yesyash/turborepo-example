@@ -1,2 +1,2 @@
-const baseConfig = require("@repo/tailwind-config/postcss.config")
-module.exports = baseConfig
+import baseConfig from "@repo/tailwind-config/postcss.config"
+export default baseConfig
