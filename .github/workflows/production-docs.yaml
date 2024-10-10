@@ -1,5 +1,6 @@
 name: Production Deployment - Docs
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
