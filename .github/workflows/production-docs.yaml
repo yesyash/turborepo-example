@@ -1,7 +1,7 @@
-name: Preview Deployment - Docs
+name: Production Deployment - Docs
 on:
   push:
-    branches-ignore:
+    branches:
       - main
     paths:
       - apps/docs/**
