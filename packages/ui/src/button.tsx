@@ -4,7 +4,7 @@ import { ReactNode } from "react";
 import { cn } from '@repo/utils/cn'
 
 type ButtonProps = {
-  size: "sm" | "md"
+  size?: "sm" | "md"
   children: ReactNode;
   className?: string;
   onClick?: () => void
