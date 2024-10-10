@@ -1,6 +1,12 @@
 'use client';
 
 import { Button } from "@repo/ui/button";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Docs",
+  description: "Place for all documentation",
+};
 
 export default function Home() {
   return (
